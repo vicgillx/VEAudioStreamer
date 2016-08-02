@@ -13,6 +13,11 @@
 		2B5D82FE1D4EF479001FD0F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5D82FC1D4EF479001FD0F1 /* Main.storyboard */; };
 		2B5D83001D4EF479001FD0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5D82FF1D4EF479001FD0F1 /* Assets.xcassets */; };
 		2B5D83031D4EF479001FD0F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5D83011D4EF479001FD0F1 /* LaunchScreen.storyboard */; };
+		2B5D830C1D4F2C7C001FD0F1 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D830B1D4F2C7C001FD0F1 /* Track.m */; };
+		2B5D830F1D4F326B001FD0F1 /* VEAudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D830E1D4F326B001FD0F1 /* VEAudioStreamer.m */; };
+		2B5D83131D4F4871001FD0F1 /* testListen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B5D83121D4F4871001FD0F1 /* testListen.mp3 */; };
+		2B5D831C1D4F48D9001FD0F1 /* Track+Provide.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D831B1D4F48D9001FD0F1 /* Track+Provide.m */; };
+		9038BFC833E5726E3129A489 /* libPods-PlayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC217630D93B73667E78FB1 /* libPods-PlayerDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		2B5D82FF1D4EF479001FD0F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B5D83021D4EF479001FD0F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B5D83041D4EF479001FD0F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5D830A1D4F2C7C001FD0F1 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		2B5D830B1D4F2C7C001FD0F1 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		2B5D830D1D4F326B001FD0F1 /* VEAudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEAudioStreamer.h; sourceTree = "<group>"; };
+		2B5D830E1D4F326B001FD0F1 /* VEAudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VEAudioStreamer.m; sourceTree = "<group>"; };
+		2B5D83121D4F4871001FD0F1 /* testListen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = testListen.mp3; sourceTree = "<group>"; };
+		2B5D831A1D4F48D9001FD0F1 /* Track+Provide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Track+Provide.h"; sourceTree = "<group>"; };
+		2B5D831B1D4F48D9001FD0F1 /* Track+Provide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Track+Provide.m"; sourceTree = "<group>"; };
+		3DC06644B823635E2382005E /* Pods-PlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayerDemo/Pods-PlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7BC217630D93B73667E78FB1 /* libPods-PlayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87102E812ED9D0CCAAAA9B43 /* Pods-PlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayerDemo/Pods-PlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9038BFC833E5726E3129A489 /* libPods-PlayerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +58,11 @@
 		2B5D82E71D4EF478001FD0F1 = {
 			isa = PBXGroup;
 			children = (
+				2B5D83121D4F4871001FD0F1 /* testListen.mp3 */,
 				2B5D82F21D4EF479001FD0F1 /* PlayerDemo */,
 				2B5D82F11D4EF479001FD0F1 /* Products */,
+				4D1BC188468BB22C972CA0AA /* Pods */,
+				345959AFE4C3D4DF2DF92A56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +81,12 @@
 				2B5D82F71D4EF479001FD0F1 /* AppDelegate.m */,
 				2B5D82F91D4EF479001FD0F1 /* ViewController.h */,
 				2B5D82FA1D4EF479001FD0F1 /* ViewController.m */,
+				2B5D830A1D4F2C7C001FD0F1 /* Track.h */,
+				2B5D830B1D4F2C7C001FD0F1 /* Track.m */,
+				2B5D831A1D4F48D9001FD0F1 /* Track+Provide.h */,
+				2B5D831B1D4F48D9001FD0F1 /* Track+Provide.m */,
+				2B5D830D1D4F326B001FD0F1 /* VEAudioStreamer.h */,
+				2B5D830E1D4F326B001FD0F1 /* VEAudioStreamer.m */,
 				2B5D82FC1D4EF479001FD0F1 /* Main.storyboard */,
 				2B5D82FF1D4EF479001FD0F1 /* Assets.xcassets */,
 				2B5D83011D4EF479001FD0F1 /* LaunchScreen.storyboard */,
@@ -79,6 +104,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		345959AFE4C3D4DF2DF92A56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BC217630D93B73667E78FB1 /* libPods-PlayerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D1BC188468BB22C972CA0AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87102E812ED9D0CCAAAA9B43 /* Pods-PlayerDemo.debug.xcconfig */,
+				3DC06644B823635E2382005E /* Pods-PlayerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B5D83071D4EF479001FD0F1 /* Build configuration list for PBXNativeTarget "PlayerDemo" */;
 			buildPhases = (
+				09337F60ABF77E1B5329566C /* [CP] Check Pods Manifest.lock */,
 				2B5D82EC1D4EF479001FD0F1 /* Sources */,
 				2B5D82ED1D4EF479001FD0F1 /* Frameworks */,
 				2B5D82EE1D4EF479001FD0F1 /* Resources */,
+				29D56783C4AF86B04D169541 /* [CP] Embed Pods Frameworks */,
+				A28B20805E4EA9988D890E71 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +155,7 @@
 				TargetAttributes = {
 					2B5D82EF1D4EF479001FD0F1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PGKA949WBS;
 					};
 				};
 			};
@@ -139,10 +185,59 @@
 				2B5D83031D4EF479001FD0F1 /* LaunchScreen.storyboard in Resources */,
 				2B5D83001D4EF479001FD0F1 /* Assets.xcassets in Resources */,
 				2B5D82FE1D4EF479001FD0F1 /* Main.storyboard in Resources */,
+				2B5D83131D4F4871001FD0F1 /* testListen.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09337F60ABF77E1B5329566C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29D56783C4AF86B04D169541 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayerDemo/Pods-PlayerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A28B20805E4EA9988D890E71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayerDemo/Pods-PlayerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B5D82EC1D4EF479001FD0F1 /* Sources */ = {
@@ -151,7 +246,10 @@
 			files = (
 				2B5D82FB1D4EF479001FD0F1 /* ViewController.m in Sources */,
 				2B5D82F81D4EF479001FD0F1 /* AppDelegate.m in Sources */,
+				2B5D830F1D4F326B001FD0F1 /* VEAudioStreamer.m in Sources */,
 				2B5D82F51D4EF479001FD0F1 /* main.m in Sources */,
+				2B5D830C1D4F2C7C001FD0F1 /* Track.m in Sources */,
+				2B5D831C1D4F48D9001FD0F1 /* Track+Provide.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,23 +361,31 @@
 		};
 		2B5D83081D4EF479001FD0F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87102E812ED9D0CCAAAA9B43 /* Pods-PlayerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PlayerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.jsyVicgil962.PlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		2B5D83091D4EF479001FD0F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC06644B823635E2382005E /* Pods-PlayerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PlayerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.jsyVicgil962.PlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -302,6 +408,7 @@
 				2B5D83091D4EF479001FD0F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
